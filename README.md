@@ -16,7 +16,7 @@ To specify if the first digit of the number can be 0, type in true or false (wit
 **NOTE** _For the examples, I have been using_ ```nrr.raand``` _this is because in step 2 of "Usage" I had typed in "nrr" inside the <name of your choice> field. You can use whatever you want. Just remeber to use that name when calling the method raand._
 
 ### Example
-```require 'noreprand'```
-```nrr = NoRepRand.new```
-```puts nrr.raand(5, true)```
+```require 'noreprand'```  
+```nrr = NoRepRand.new```  
+```puts nrr.raand(5, true)```  
 ```=> 82659```
