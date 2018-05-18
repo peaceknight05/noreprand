@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'noreprand'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2018-05-18'
   s.summary     = "A simple random number generator that doesn't have repeating digits"
   s.description = "A simple random number generator that doesn't have repeating digits. The number of digits can also be specified"
