@@ -4,10 +4,18 @@ class ExceededDigitLimit < StandardError
 	end
 end
 
+class BelowDigitMinimum < StandardError
+	def initialize(msg = "Needs to have at least 1 digit")
+		super
+	end
+end
+
 class NoRepRand
 	def raand(digitcount, nostartwithzero = false)
 		if digitcount > 10
 			raise ExceededDigitLimit
+		elsif digitcount <= 0
+			raise BelowDigitMinimum
 		else
 			digits = Array(0..9)
 			tempnum = []
