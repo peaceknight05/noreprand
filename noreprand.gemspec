@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = '0.0.1'
   s.date        = '2018-05-18'
   s.summary     = "A simple random number generator that doesn't have repeating digits"
-  s.description = "A simple random number generator that doesn't have repeating digits"
+  s.description = "A simple random number generator that doesn't have repeating digits. The number of digits can also be specified"
   s.author      = ["Jonathan Tan"]
   s.email       = 'jonathantanatlol@gmail.com'
   s.files       = ["lib/noreprand.rb"]
